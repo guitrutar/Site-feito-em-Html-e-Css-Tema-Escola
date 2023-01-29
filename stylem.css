@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%; 
+  height: 100vh;
+
+  background-color: rgb(22, 22, 255);
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: 0.2s ease-in-out;
+}
+
+/* Header */
+
+header {
+  padding: 25px;
+  background-color: rgb(0, 0, 188);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav {
+  font-size: 1.2em;
+}
+
+header nav a {
+  margin: 8px;
+}
+
+header a:hover, .h1e:hover {
+  color: rgb(0, 238, 255);
+}
+
+header .h1e {
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+main .inputs {
+  position: relative;
+  right: 35px;
+}
+
+main .inputs .nomei {
+  text-align: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+main .inputs .idadei {
+  text-align: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+main .inputs .seriei {
+  text-align: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+main .inputs .emaili {
+  text-align: center;
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+}
+
+main .buttoni {
+  position: relative;
+  left: 10px;
+  text-align: center;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+main .buttoni:hover {
+  color: rgb(21, 0, 255);
+  transition: 0.4s ease-in-out;
+  font-size: 1.2em;
+  position: relative;
+  left: -1px;
+}
+
+main .presencah1 {
+  position: relative;
+  left: 40px;
+  font-size: 1.5em;
+}
+
+/* Footer */
+
+footer {
+  background-color: rgb(0, 0, 188);
+  padding: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
